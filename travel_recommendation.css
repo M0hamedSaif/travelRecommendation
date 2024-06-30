@@ -1,0 +1,65 @@
+/* travel_recommendation.css */
+.navbar {
+    background-color: #222; /* Dark metallic black */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 16px;
+    margin-right: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-title {
+    margin-left: 0;
+    margin-right: 8px;
+    color: white;
+}
+
+.nav-items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar input[type="text"] {
+    padding: 6px;
+    border: none;
+}
+
+.navbar button {
+    padding: 6px 10px;
+    background-color: #444; /* Slightly lighter metallic black */
+    color: white;
+    border: 1px solid #555;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #666; /* Hover effect color */
+}
+
+.srch-icn {
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+}
