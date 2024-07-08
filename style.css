@@ -1,0 +1,200 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background image */
+body {
+    background-image: url('./imgs/2.jpg');
+    /* Replace with your image path */
+
+   
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+
+.first-header {
+
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    max-width: min-content;
+    margin-top: 4%;
+    margin-left: 7%;
+    text-shadow: white 0px 0px 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+    
+
+}
+
+.first-para {
+
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 360px;
+    margin-left: 7%;
+    margin-bottom: 40px;
+    text-shadow: white 0px 0px 10px;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+    
+
+}
+
+#fetched-data {
+
+    margin-top: 1%;
+
+}
+
+.about-us-container {
+    position: relative;
+    color: white;
+}
+
+
+
+.about-us-content {
+    
+    margin: auto;
+    
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    width: 80%;
+}
+
+
+
+.about-us-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-us-description {
+    font-size: 1.2rem;
+}
+
+.about-us-team .team-member {
+    margin-bottom: 2rem;
+}
+
+.about-us-team .card {
+    border: none;
+    background: none;
+}
+
+.about-us-team{
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.about-us-team .card-body {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+
+
+.line {
+    width: 3px;
+    height: 100%;
+    align-items: center;
+    border: black;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.sidebar {
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social a {
+    margin: 10px 0;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.contactUs{
+    margin-top: 12%;
+    text-shadow: white 0px 0px 10px;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+}
+
+.form-container {
+    
+    width: 100%;
+    max-width: 700px;
+    margin-top: 8%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container .transparent-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container .transparent-form label {
+    margin-bottom: 5px;
+    color: white; /* Color of the text labels */
+}
+
+.form-container .transparent-form input,
+.form-container .transparent-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5); /* Semi-transparent border */
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    color: white; /* Text color */
+    border-radius: 5px;
+    outline: none;
+    resize: none; /* Prevent textarea resizing */
+}
+
+.form-container .transparent-form input::placeholder,
+.form-container .transparent-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder text color */
+}
+
+.form-container .transparent-form button {
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    color: white; /* Button text color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container .transparent-form button:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly less transparent on hover */
+}
